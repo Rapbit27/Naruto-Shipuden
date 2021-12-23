@@ -1,0 +1,74 @@
+header {
+    text-align: center;
+    height: 15vh;
+}
+body {
+    background-image: url('../Images/MainPage.jpg');
+    font-size: 125%;
+    margin: 3%;
+    display: inline-block;
+}
+div {
+    display: inline-block;
+    vertical-align: middle;
+    align-content: center;
+    padding: 0% 2% 2% 4%;
+}
+nav {
+    box-sizing: border-box;
+    height: 5vh;
+    background-color: orange;
+}
+a {
+    font-weight: bold;
+    background-color: 0006cc;
+    text-align: center;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #aaa;
+}
+nav a.active{
+    background-color: #aaa;
+    color: #444;
+    cursor: default;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+nav li { 
+    width: 30%;
+    font-size: 125%;
+    display: inline-block;
+}
+nav li ul{
+    position:absolute;
+    display: none;
+    width: inherit;
+}
+nav li:hover ul{
+    display: block;
+}
+nav a{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 2s ease;
+}
+img{
+    border-radius: 50%;
+    display: none;
+}
+h1 {
+    font-size: 125%;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 100%;
+    background: orangered;
+    font-family: 'Times New Roman', Times, serif;
+}
+
